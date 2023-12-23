@@ -1,5 +1,5 @@
 {
-    "name": "ezsystems/ezautosave-ls",
+    "name": "se7enxweb/ezautosave-ls",
     "description": "Content editing autosave extension for eZ Publish legacy",
     "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0",
