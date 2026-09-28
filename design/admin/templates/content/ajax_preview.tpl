@@ -8,7 +8,7 @@
             <option value="{$sa|wash()}"{cond( $sa|eq( $default_siteaccess ), ' selected="selected"', '' )}>{$sa|wash()}</option>
         {/foreach}
         </select>
-        <img src={'as-loader.gif'|ezimage} alt="Loading..." style="display:none" id="iframe-loader" />
+        <img src={'as-loader.gif'|ezimage} alt="{'Loading...'|i18n( 'design/admin2/content/ajax_preview' )}" style="display:none" id="iframe-loader" />
     </h1>
     <div class="context-information">
         <p class="left preview-warning">
