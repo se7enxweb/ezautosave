@@ -125,7 +125,8 @@ display:none;
 display:inline-block;
 margin-top:0.7em;
 padding-left:15px;
-background: url(../../../../../design/admin/images/2/yui_sprite.png) no-repeat -16px -850px;
+/* a small black triangle pointing down */
+background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' shape-rendering='crispEdges'%3E%3Cpath d='M0 6h7v1H0zM1 7h5v1H1zM2 8h3v1H2zM3 9h1v1H3z'/%3E%3C/svg%3E") no-repeat 0 0;
 }
 
 #preview-link
@@ -152,7 +153,8 @@ border-bottom:1px solid #fff;
 
 #preview-link.previewed span
 {
-background: url(../../../../../design/admin/images/2/yui_sprite.png) no-repeat -16px -950px;
+/* a small black triangle pointing up */
+background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' shape-rendering='crispEdges'%3E%3Cpath d='M3 6h1v1H3zM2 7h3v1H2zM1 8h5v1H1zM0 9h7v1H0z'/%3E%3C/svg%3E") no-repeat 0 0;
 }
 
 #preview-link.previewed:hover
