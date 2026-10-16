@@ -24,7 +24,11 @@
     </message>
     <message>
         <source>&lt;strong&gt;Warning:&lt;/strong&gt; &lt;em&gt;following links from the preview will take you to the live version of the website&lt;/em&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;strong&gt;Advertencia:&lt;/strong&gt; &lt;em&gt;si sigues los enlaces de la vista previa, llegarás a la versión pública del sitio web&lt;/em&gt;</translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation>Cargando...</translation>
     </message>
 </context>
 <context>
@@ -57,7 +61,7 @@
     <name>extension/ezautosave</name>
     <message>
         <source>Draft saved at %time</source>
-        <translation>Borrado guardado en %time </translation>
+        <translation>Borrador guardado a las %time</translation>
     </message>
     <message>
         <source>(%min minutes ago)</source>
@@ -88,7 +92,7 @@
     </message>
     <message>
         <source>Unable to load version #%versionr of content #%objectid</source>
-        <translation>Imposible cargar la versión #%versionr del contenido #%objectid </translation>
+        <translation>No se ha podido cargar la versión #%versionr del contenido #%objectid</translation>
     </message>
     <message>
         <source>Version #%versionr of content #%objectid is not a draft</source>
