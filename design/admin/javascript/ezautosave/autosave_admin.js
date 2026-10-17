@@ -20,7 +20,9 @@
 
 window.Exp.ready(function ($) {
 
-    var ieDisableWithPassword = ( conf.ieDisableWithPassword || [] ).map( Number ),
+    // a list in autosave.ini; json_encode writes an object when the INI keys are not 0, 1, 2 ...
+    var ieList = conf.ieDisableWithPassword || [],
+        ieDisableWithPassword = ( Array.isArray( ieList ) ? ieList : Object.keys( ieList ).map( function ( k ) { return ieList[k]; } ) ).map( Number ),
         as = new window.Exp.autosave.AutoSubmit({
 
             form: '#editform',
