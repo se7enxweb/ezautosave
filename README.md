@@ -56,7 +56,13 @@ changed something, to an ezjscore call, and triggers these events:
 
 The admin's preview pane is `Exp.autosave.Preview`. The edit templates of this
 extension (design/admin and design/ezwebin, content/edit/autosave.tpl) show
-both in use. A minimal example:
+both in use. The admin one carries no inline script: it writes its settings as
+`<script type="application/json" id="ezautosave-settings">` (with `<` and `>`
+as `\u003c` and `\u003e`, so no text can end the block early), and
+`design/admin/javascript/ezautosave/autosave_admin.js` (loaded with `defer`)
+starts the autosave from them, so the edit page runs under a Content Security
+Policy without `'unsafe-inline'`. A minimal example (inline, for a page without
+such a policy):
 
     {exp_config()}
     {ezscript_require( array( 'ezjsc::jquery', 'exp::core::shared', 'exp::io', 'exp::autosave' ) )}
