@@ -1,10 +1,14 @@
+/* The admin preview of an autosaved draft. Colours come from the admin's --a4-* tokens, with the old values as
+   fallbacks for a design without them, so the preview follows the light and the dark mode. The templates carry no
+   inline CSS. */
+
 #content-preview
 {
 position:fixed;
 right:0;
 top:0;
 height:0;
-background:#fff;
+background:var(--a4-card, #fff);
 z-index:1000;
 width:100%;
 display:none;
@@ -16,7 +20,7 @@ display:block;
 float:right;
 font-weight:normal;
 font-size:0.7em;
-color:#333;
+color:var(--a4-ink, #333);
 text-decoration:none;
 }
 
@@ -27,13 +31,13 @@ vertical-align:middle;
 
 #content-preview .context-information
 {
-border-top:1px solid #ccc;
+border-top:1px solid var(--a4-line, #ccc);
 margin-bottom:0;
 }
 
 .controlbar-fixed #content-preview.previewed
 {
-border-top:1px solid #ccc;
+border-top:1px solid var(--a4-line, #ccc);
 display:block;
 }
 
@@ -52,9 +56,9 @@ text-align:center;
 margin:40px auto 0 auto;
 display:inline-block;
 font-size:120%;
-background:#fff url(../../../../../design/admin/images/2/loader.gif) 15px center no-repeat;
+background:var(--a4-card, #fff) url(../../../../../design/admin/images/2/loader.gif) 15px center no-repeat;
 padding:20px 30px 20px 62px;
-color:#222;
+color:var(--a4-ink, #222);
 }
 
 #content-preview.loading #preview-iframe
@@ -67,16 +71,16 @@ display:none;
 margin:40px auto 0 auto;
 display:inline-block;
 font-size:120%;
-background:#ffdede url(../../../../../design/admin/images/message-error.gif) 15px center no-repeat;
+background:var(--a4-bad-bg, #ffdede) url(../../../../../design/admin/images/message-error.gif) 15px center no-repeat;
 padding:20px 30px 20px 62px;
-border:1px solid #9a2e2e;
+border:1px solid var(--a4-bad-line, #9a2e2e);
 border-radius:5px;
-color:#550101;
+color:var(--a4-bad, #550101);
 }
 
 #content-preview.previewed iframe
 {
-border:1px solid #999;
+border:1px solid var(--a4-line-strong, #999);
 width:100%;
 margin-bottom:10px;
 }
@@ -134,7 +138,7 @@ background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 position:fixed;
 top:0;
 right:0;
-border-left:1px solid #ccc;
+border-left:1px solid var(--a4-line, #ccc);
 z-index:2000;
 }
 
@@ -145,9 +149,9 @@ cursor:s-resize;
 
 #preview-link.previewed
 {
-background:#fff;
+background:var(--a4-card, #fff);
 z-index:2000;
-border-bottom:1px solid #fff;
+border-bottom:1px solid var(--a4-card, #fff);
 }
 
 
@@ -165,4 +169,11 @@ cursor:n-resize;
 .preview-warning
 {
 font-size:1.1em;
+}
+
+/* The loader beside the siteaccess choice: hidden until autosave.js fades it in while the preview loads (was a
+   style="display:none" in content/ajax_preview.tpl) */
+#iframe-loader
+{
+display:none;
 }
