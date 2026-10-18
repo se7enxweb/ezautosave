@@ -26,6 +26,10 @@
         <source>&lt;strong&gt;Warning:&lt;/strong&gt; &lt;em&gt;following links from the preview will take you to the live version of the website&lt;/em&gt;</source>
         <translation>&lt;strong&gt;Attenzione:&lt;/strong&gt; &lt;em&gt;seguendo i links dall&apos;anteprima ti troverai nella versione online del sito web&lt;/em&gt;</translation>
     </message>
+    <message>
+        <source>Loading...</source>
+        <translation>Caricamento...</translation>
+    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>
@@ -76,7 +80,7 @@
     </message>
     <message>
         <source>No POST data found, it&apos;s probably because you tried to upload a too big file</source>
-        <translation>Nessun dato POST trovato, probabilmente perchè hai cercato di caricare un file troppo grande</translation>
+        <translation>Nessun dato POST trovato, probabilmente perché hai cercato di caricare un file troppo grande</translation>
     </message>
     <message>
         <source>Unable to load the content #%objectid</source>

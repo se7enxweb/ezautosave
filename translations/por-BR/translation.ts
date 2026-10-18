@@ -24,7 +24,11 @@
     </message>
     <message>
         <source>&lt;strong&gt;Warning:&lt;/strong&gt; &lt;em&gt;following links from the preview will take you to the live version of the website&lt;/em&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;strong&gt;Aviso:&lt;/strong&gt; &lt;em&gt;seguir links a partir da pré-visualização levará você à versão publicada do site&lt;/em&gt;</translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation>Carregando...</translation>
     </message>
 </context>
 <context>
