@@ -80,7 +80,7 @@
     </message>
     <message>
         <source>No POST data found, it&apos;s probably because you tried to upload a too big file</source>
-        <translation>Nessun dato POST trovato, probabilmente perchè hai cercato di caricare un file troppo grande</translation>
+        <translation>Nessun dato POST trovato, probabilmente perché hai cercato di caricare un file troppo grande</translation>
     </message>
     <message>
         <source>Unable to load the content #%objectid</source>
