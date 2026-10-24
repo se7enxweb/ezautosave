@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_US">
+<TS version="2.0" language="el_GR">
 <context>
     <name>design/admin2/autosave</name>
     <message>
         <source>An error occurred while autosaving the draft</source>
-        <translation>Ένα λάθος συνέβη κατά την αυτόματη αποθήκευση του προσχεδίου</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την αυτόματη αποθήκευση του προσχεδίου</translation>
     </message>
     <message>
         <source>The draft is being saved</source>
@@ -20,11 +20,15 @@
     </message>
     <message>
         <source>Preview of &amp;lt;%name&amp;gt; in siteaccess</source>
-        <translation>Προεπισκόπηση του &amp;lt;%name&amp;gt; στο siteaccess</translation>
+        <translation>Προεπισκόπηση του &amp;lt;%name&amp;gt; στην πρόσβαση ιστότοπου</translation>
     </message>
     <message>
         <source>&lt;strong&gt;Warning:&lt;/strong&gt; &lt;em&gt;following links from the preview will take you to the live version of the website&lt;/em&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;strong&gt;Προειδοποίηση:&lt;/strong&gt; &lt;em&gt;αν ακολουθήσετε συνδέσεις από την προεπισκόπηση, θα μεταφερθείτε στη ζωντανή έκδοση του ιστότοπου&lt;/em&gt;</translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation>Φόρτωση...</translation>
     </message>
 </context>
 <context>
@@ -35,7 +39,7 @@
     </message>
     <message>
         <source>An error occurred.</source>
-        <translation>Ένα λάθος συνέβη.</translation>
+        <translation>Παρουσιάστηκε σφάλμα.</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -46,7 +50,7 @@
     <name>design/ezwebin/autosave</name>
     <message>
         <source>An error occurred while autosaving the draft</source>
-        <translation>Ένα λάθος συνέβη κατά την αυτόματη αποθήκευση του προσχεδίου</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την αυτόματη αποθήκευση του προσχεδίου</translation>
     </message>
     <message>
         <source>The draft is being saved</source>
@@ -61,7 +65,7 @@
     </message>
     <message>
         <source>(%min minutes ago)</source>
-        <translation>(%min λεπτά πριν)</translation>
+        <translation>(πριν από %min λεπτά)</translation>
     </message>
 </context>
 <context>
@@ -72,15 +76,15 @@
     </message>
     <message>
         <source>A POST request is expected</source>
-        <translation>Ένα POST αίτημα αναμένεται</translation>
+        <translation>Αναμένεται αίτηση POST</translation>
     </message>
     <message>
         <source>No POST data found, it&apos;s probably because you tried to upload a too big file</source>
-        <translation>Κανένα POST δεδομένο δεν βρέθηκε, πιθανά επειδή προσπαθήσατε να μεταφορτώσετε πολύ μεγάλο αρχείο</translation>
+        <translation>Δεν βρέθηκαν δεδομένα POST, πιθανώς επειδή προσπαθήσατε να μεταφορτώσετε πολύ μεγάλο αρχείο</translation>
     </message>
     <message>
         <source>Unable to load the content #%objectid</source>
-        <translation>Αδύνατη η φόρτωση του περιεχομένου #%objectid</translation>
+        <translation>Δεν ήταν δυνατή η φόρτωση του περιεχομένου #%objectid</translation>
     </message>
     <message>
         <source>The content #%objectid is archived</source>
@@ -88,7 +92,7 @@
     </message>
     <message>
         <source>Unable to load version #%versionr of content #%objectid</source>
-        <translation>Αδύνατη η φόρτωση της έκδοσης #%versionr του περιεχομένου #%objectid</translation>
+        <translation>Δεν ήταν δυνατή η φόρτωση της έκδοσης #%versionr του περιεχομένου #%objectid</translation>
     </message>
     <message>
         <source>Version #%versionr of content #%objectid is not a draft</source>
@@ -96,11 +100,11 @@
     </message>
     <message>
         <source>You&apos;re not allowed to store a version that is not yours</source>
-        <translation>Δεν σας επιτρέπεται να αποθηκεύσετε έκδοση που δεν σας ανήκει</translation>
+        <translation>Δεν έχετε δικαίωμα να αποθηκεύσετε έκδοση που δεν σας ανήκει</translation>
     </message>
     <message>
         <source>Unable to load the language &apos;%localeCode&apos;</source>
-        <translation>Αδύνατη η φόρτωση της γλώσσας &apos;%localeCode&apos;</translation>
+        <translation>Δεν ήταν δυνατή η φόρτωση της γλώσσας &apos;%localeCode&apos;</translation>
     </message>
 </context>
 </TS>
