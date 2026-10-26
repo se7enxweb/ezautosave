@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>ಲೋಡ್ ಆಗುತ್ತಿದೆ...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>ಲೋಡ್ ಆಗುತ್ತಿದೆ...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

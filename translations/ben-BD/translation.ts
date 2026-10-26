@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>লোড হচ্ছে...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>লোড হচ্ছে...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

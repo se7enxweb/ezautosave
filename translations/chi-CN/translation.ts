@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>正在加载...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>正在加载...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

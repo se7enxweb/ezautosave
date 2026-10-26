@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>ஏற்றுகிறது...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>ஏற்றுகிறது...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

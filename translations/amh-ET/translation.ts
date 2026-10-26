@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>በመጫን ላይ…</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>በመጫን ላይ…</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

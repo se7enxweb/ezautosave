@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>Wczytywanie...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>Wczytywanie...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>ലോഡ് ചെയ്യുന്നു...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>ലോഡ് ചെയ്യുന്നു...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

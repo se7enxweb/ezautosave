@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>Laai tans...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>Laai tans...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>
