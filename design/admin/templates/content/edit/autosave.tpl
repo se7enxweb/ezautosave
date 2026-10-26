@@ -28,4 +28,10 @@
 {/set-block}
 <script type="application/json" id="ezautosave-settings">{$as_settings_json|explode( '<' )|implode( '\u003c' )|explode( '>' )|implode( '\u003e' )}</script>
 {undef $as_settings_json}
+{* Exponential UI's autosave (with exp::collapse for its preview): the older admin designs load every exp:: module on
+   every page (design.ini ClassicBackendJavaScriptList), admin4 only what a template requests; the head prints the
+   request before this deferred file runs. Without jQuery. Without the expui extension there is no autosave. *}
+{if ezini( 'ExtensionSettings', 'ActiveExtensions' )|contains( 'expui' )}
+{ezscript_require( array( 'exp::core::shared', 'exp::collapse', 'exp::autosave' ) )}
+{/if}
 <script src="{'javascript/ezautosave/autosave_admin.js'|ezdesign( 'no' )}" defer></script>

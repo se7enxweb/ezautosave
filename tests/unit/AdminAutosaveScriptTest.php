@@ -26,6 +26,10 @@ class AdminAutosaveScriptTest extends TestCase
         // a text can not end the block early
         $this->assertStringContainsString( "|explode( '<' )|implode( '\\u003c' )", $tpl );
         $this->assertStringContainsString( "|explode( '>' )|implode( '\\u003e' )", $tpl );
+        // admin4 loads no exp:: module on every page: the template requests the autosave (and the collapse of its
+        // preview) itself, before the deferred file that starts it
+        $this->assertStringContainsString( "{ezscript_require( array( 'exp::core::shared', 'exp::collapse', 'exp::autosave' ) )}", $tpl );
+        $this->assertLessThan( strpos( $tpl, 'autosave_admin.js' ), strpos( $tpl, "'exp::autosave'" ) );
     }
 
     public function testScriptReadsEverySettingTheTemplateWrites(): void
