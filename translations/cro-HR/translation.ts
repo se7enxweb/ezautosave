@@ -30,10 +30,6 @@
         <source>Loading...</source>
         <translation>Učitavanje...</translation>
     </message>
-    <message>
-        <source>Loading...</source>
-        <translation>Učitavanje...</translation>
-    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>
