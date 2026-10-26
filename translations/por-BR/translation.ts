@@ -43,7 +43,7 @@
     </message>
     <message>
         <source>Preview</source>
-        <translation>Pré-visualição</translation>
+        <translation>Pré-visualização</translation>
     </message>
 </context>
 <context>

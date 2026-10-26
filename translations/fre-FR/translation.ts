@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>Preview of &amp;lt;%name&amp;gt; in siteaccess</source>
-        <translation>Prévisualisation de &amp;lt;%name&amp;gt; dans le siteacces</translation>
+        <translation>Prévisualisation de &amp;lt;%name&amp;gt; dans le siteaccess</translation>
     </message>
     <message>
         <source>&lt;strong&gt;Warning:&lt;/strong&gt; &lt;em&gt;following links from the preview will take you to the live version of the website&lt;/em&gt;</source>
