@@ -74,7 +74,7 @@ font-size:120%;
 background:var(--a4-bad-bg, #ffdede) url(../../../../../design/admin/images/message-error.gif) 15px center no-repeat;
 padding:20px 30px 20px 62px;
 border:1px solid var(--a4-bad-line, #9a2e2e);
-border-radius:5px;
+border-radius:var(--a4-radius-s, 5px);
 color:var(--a4-bad, #550101);
 }
 
@@ -116,7 +116,7 @@ visibility:hidden;
 display:inline-block;
 padding:0 0.8em;
 margin-left:0.5em;
-font-weight:bold;
+font-weight:var(--a4-weight-bold, bold);
 }
 
 #preview-link, #preview-spacer
